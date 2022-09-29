@@ -1,4 +1,4 @@
 
 <?php
-phpinfo();
+echo "Meu Servidor Local está on.";
 ?>
