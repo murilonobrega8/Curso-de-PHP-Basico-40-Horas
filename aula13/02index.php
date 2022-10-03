@@ -9,7 +9,7 @@
 
 	<body>
 		<div>
-			<form method="get" action="03tabuada.php">
+			<form method="get" action="02tabuada.php">
 				Número:
 				<select name="num">
 					<?php
@@ -23,4 +23,3 @@
 		</div>
 	</body>
 </html>
- 
