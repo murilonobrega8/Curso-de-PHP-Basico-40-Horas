@@ -10,24 +10,24 @@
     <body>
         <div>
             <?php
-                $estado = isset ($_GET["estado"])? $_GET["estado"]:0;
+                $estado = isset ($_GET["estado"])?$_GET["estado"]:0;
                 switch ($estado){
-                 case 1:
-                 echo "Você está na região Sul.";
-                 break;
-                 case 2:
-                 echo "Você está na região Sudeste";
-                 break;
-                 case 3:
-                 echo "Você está na região Centro-Oeste";
-                 break;
-                 case 4:
-                 echo "Você está na região Nordeste";
-                 break;
-                 case 5:
-                 echo "Você esta na região Norte";
+                    case 1:
+                    echo "Você está na região Sul.";
+                    break;
+                    case 2:
+                    echo "Você está na região Sudeste.";
+                    break;
+                    case 3:
+                    echo "Você está na região Centro-Oeste.";
+                    break;
+                    case 4:
+                    echo "Você está na região Nordeste.";
+                    break;
+                    case 5:
+                    echo "Você está na região Norte.";
                 }
-                
+
                 /* $estado = $_GET["estado"];
                 echo "<p>Você mora na ";
                 switch ($estado){
